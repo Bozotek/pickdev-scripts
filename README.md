@@ -18,11 +18,12 @@ vérification des versions git (pour voir s'il faut créer un dossier backup) ..
 
 Pour l'utiliser, simplement créer un fichier project.id dans chaque dossier de projet, avec le nom du dossier (=nom de projet).
 
-Ex:
+```
 $ cd ReactTest
 $ cat project.id
 ReactTest
 $
+```
 
 Ensuite, dès que vous voulez mettre en place un projet sur le serveur apache, tapez "pickdev 'nom_projet'" et hops tout est pris en charge :D
 
